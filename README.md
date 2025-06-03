@@ -27,8 +27,8 @@ A real-time stock market dashboard built with H2O Wave, featuring fast chart swi
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd Stock-Market-Prediction
+   git clone https://github.com/subu0106/Stock-Market-Dashboard.git
+   cd Stock-Market-Dashboard
    ```
 
 2. **Create virtual environment**
