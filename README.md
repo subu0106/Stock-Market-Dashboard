@@ -4,8 +4,11 @@ A real-time stock market dashboard built with H2O Wave, featuring fast chart swi
 ## Screenshots & Demo
 
 ### Demo Video
+<video width="800" controls>
+  <source src="https://github.com/subu0106/Stock-Market-Dashboard/raw/main/assets/demo.mp4" type="video/mp4">
+  <a href="https://github.com/subu0106/Stock-Market-Dashboard/blob/main/assets/demo.mp4">Watch Demo Video</a>
+</video>
 
-**[▶️ Watch Demo Video](https://github.com/subu0106/Stock-Market-Dashboard/blob/main/assets/demo.mp4)**
 
 ### Application Screenshots
 
