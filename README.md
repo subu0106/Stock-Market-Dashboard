@@ -1,9 +1,32 @@
 # 📊 Stock Market Dashboard
 A real-time stock market dashboard built with H2O Wave, featuring fast chart switching and efficient data caching.
 
+## Screenshots & Demo
+
+### Demo Video
+
+**[▶️ Watch Demo Video](https://github.com/subu0106/Stock-Market-Dashboard/blob/main/assets/demo.mp4)**
+
+### Application Screenshots
+
+#### Dark Theme
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/subu0106/Stock-Market-Dashboard/main/assets/DT-1.png" alt="Dark Theme View 1" width="45%">
+  <img src="https://raw.githubusercontent.com/subu0106/Stock-Market-Dashboard/main/assets/DT-2.png" alt="Dark Theme View 2" width="45%">
+</div>
+
+####  Light Theme
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/subu0106/Stock-Market-Dashboard/main/assets/LT-1.png" alt="Light Theme View 1" width="45%">
+  <img src="https://raw.githubusercontent.com/subu0106/Stock-Market-Dashboard/main/assets/LT-2.png" alt="Light Theme View 2" width="45%">
+</div>
+
 ## Features
 
 ### Stock Market
+
 - **Real-time Stock Data**: Live stock prices and market information via Yahoo Finance
 - **Interactive Charts**: Multiple time periods (5D, 1M, 6M, 1Y, 5Y, Max)
 - **Stock Search**: Fast ticker symbol search with suggestions
@@ -87,8 +110,7 @@ Stock-Market-Prediction/
 
 1. **Search for a stock**: Type ticker symbol (e.g., "AAPL") in the search box
 2. **Switch time periods**: Click period buttons (5D, 1M, 6M, etc.) for instant switching
-3. **Toggle theme**: Click the theme button (🌞/🌙) in the header
-4. **View cache status**: Look for 🚀 (cached) or ⏳ (fresh) indicators
+3. **Toggle theme**: Click the theme button  in the header
 
 ## Testing
 
@@ -97,9 +119,6 @@ The project includes comprehensive test coverage to verify functionality:
 ### Run Tests
 
 ```bash
-# Simple test suite (quick verification)
-python test/simple_test.py
-
 # Comprehensive test suite (full coverage)
 python test/test.py
 ```
@@ -108,11 +127,11 @@ python test/test.py
 
 The tests verify:
 
-- ✅ **Module Imports**: All modules can be imported successfully
-- ✅ **Configuration**: Constants, themes, and app settings  
-- ✅ **Stock Service**: Data fetching, caching, and chart operations
-- ✅ **Helper Functions**: Validation, formatting, and search utilities
-- ✅ **UI Components**: Header, search, tables, and chart creation
+- **Module Imports**: All modules can be imported successfully
+- **Configuration**: Constants, themes, and app settings  
+- **Stock Service**: Data fetching, caching, and chart operations
+- **Helper Functions**: Validation, formatting, and search utilities
+- **UI Components**: Header, search, tables, and chart creation
 
 Both test suites use the project's proper package structure and run independently of the H2O Wave server.
 
